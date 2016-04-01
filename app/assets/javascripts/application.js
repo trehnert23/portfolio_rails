@@ -19,12 +19,6 @@
 
 $(document).ready(function() {
 	// NAVBAR SCROLL OPACITY EFFECT
-	$(document).scroll(function() {
-	  var dHeight = $(this).height()-$(window).height();
-	  if (dHeight >= $(this).scrollTop()) {
-	    $('nav').css('background', 'rgba(85,172,238,' + $(this).scrollTop() / dHeight + ')');
-	  }
-	});
 
 
 
