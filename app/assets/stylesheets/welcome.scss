@@ -83,7 +83,21 @@ body {
               /*Home Page Logo*/
 /*----------------------------------------------*/
 
+.welcome_logo {
+  /*margin-top: 0%;*/
+}
 
+.welcome_image_holder {
+  width: 40rem;
+  position: absolute;
+  margin-top: -5%;
+}
+
+.welcome_image {
+  width: 100%;
+  border-radius: 5%;
+  border: 2px solid #a94904;
+}
 
 .logo {
   background: #f26906;
@@ -92,6 +106,8 @@ body {
   box-shadow: 0 0 0 0.8rem #f26906;
   height: 25rem;
   margin: 5rem auto;
+  margin-top: 50%;
+  margin-left: 40%;
   transform: rotate(-8deg);
   width: 25rem;
 }
