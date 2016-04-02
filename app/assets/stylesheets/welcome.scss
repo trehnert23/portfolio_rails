@@ -1,0 +1,482 @@
+
+/*----------------------------------------------*/
+              /*slide rolling effect*/
+/*----------------------------------------------*/
+
+body {
+  margin:0;
+  padding:0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Nunito;
+}
+
+.slide {
+  position: relative;
+  padding: 20vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style: inherit;
+}
+
+.slide2 {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style: inherit;
+}
+
+.title {
+  width: 50%;
+  padding: 5%;
+  z-index: 99999;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+#home {
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    animation: fadein 4s;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#home {
+/*  background-image: url('https://images.unsplash.com/photo-1456846329149-8dcd6ef488b6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e7a621130e836181108e7c1573fa6924');*/
+  background-image: url('graffiti.jpg');
+  background-size: 300vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /*background-position: 0px, 0px;*/
+}
+
+#projects {
+  background-image: url('pencils.jpg');
+  background-size: 300vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about {
+  background-image: url('https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5e46ad0c03ce5a81a0541ab625f71f8b');
+  background-size: 300vh;
+  background-repeat: no-repeat;
+  background-position: 0px -100px;
+  background-attachment: fixed;
+}
+
+
+/*----------------------------------------------*/
+                    /*navbar*/
+/*----------------------------------------------*/
+
+.navbar-toggle {
+  background-color: black;
+}
+
+
+.navbar-custom .navbar-brand {
+  margin-left: 20px;
+  font-size: 30px;
+  background-color: transparent;
+  border: transparent;
+  font-family: Dosis;
+}
+
+#home_link {
+  margin-left: 20px;
+  font-size: 30px;
+  color: white;
+  background-color: transparent;
+  border: transparent;
+  font-family: Dosis;
+  outline: none;
+}
+
+#home_link:hover {
+  color: black;
+  outline: none;
+}
+
+.navbar-custom .navbar-nav > button {
+  background-color: transparent;
+  border: transparent;
+  margin-top: 1%;
+  color: white;
+  font-family: Dosis;
+  font-size: 28px;
+  outline: none;
+}
+
+.navbar-custom .navbar-nav > button:hover {
+  color: rgba(84,84,84,1);
+  outline: none;
+}
+
+.navbar-custom .navbar-brand {
+  color: black;
+}
+
+#home_link:hover {
+  color: rgba(84,84,84,1);
+}
+
+.navbar-custom .navbar-right {
+  margin-right: 20px;
+}
+
+
+/*----------------------------------------------*/
+             /*home page formatting*/
+/*----------------------------------------------*/
+
+.home_text {
+  text-align: left;
+  font-family: Permanent Marker;
+  color: white;
+  margin-top: -10vh;
+}
+
+.home_text .name_tag {
+  font-size: 12vh;
+}
+
+.home_text .name_description {
+  font-size: 6vh;
+}
+
+
+/*----------------------------------------------*/
+             /*project page formatting*/
+/*----------------------------------------------*/
+
+.projects_header {
+  color: white;
+  font-family: Permanent Marker;
+  font-size: 60px;
+  text-align: center;
+  margin-top: -18vh;
+}
+
+.projects_div {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.hover_paragraph {
+  margin: 0;
+  padding: 0;
+  font-size: 4vh;
+  text-align: left;
+  font-family: Dosis;
+}
+
+.hover_click {
+  bottom: 0;
+  font-size: 3vh;
+  text-align: left;
+  font-family: Dosis;
+  position: absolute;
+}
+
+.content-item {
+  background: url('bootcamps.jpg');
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 50vh;
+  margin: 7vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.content-item .overlay {
+  border-bottom: 100px solid #55acee;
+  border-left: 100px solid transparent;
+  bottom: 0;
+  height: 0;
+  opacity: .95;
+  position: absolute;
+  right: 0;
+  text-indent: -9999px;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  width: 0;
+}
+
+.content-item:hover .overlay {
+  border-bottom: 1100px solid #55acee;
+  border-left: 1100px solid transparent;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.content-item .corner-overlay-content {
+  bottom: 15px;
+  color: white;
+  position: absolute;
+  right: 15px;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  font-family: Dosis;
+}
+
+.content-item:hover .corner-overlay-content {
+  opacity: 0;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.content-item .overlay-content {
+  bottom: 0;
+  color: white;
+  left: 0;
+  opacity: 0;
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  font-family: Dosis;
+}
+
+.content-item .overlay-content .title_header {
+  border-bottom: 1px solid white;
+  padding: 0 0 12px;
+  text-align: center;
+  font-size: 6vh;
+}
+
+.content-item:hover .overlay-content {
+  opacity: 1;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  -moz-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.content-item2 {
+  background: url('shootingGame.jpg');
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 50vh;
+  margin: 7vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.content-item2 .overlay {
+  border-bottom: 100px solid #55acee;
+  border-left: 100px solid transparent;
+  bottom: 0;
+  height: 0;
+  opacity: .95;
+  position: absolute;
+  right: 0;
+  text-indent: -9999px;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  width: 0;
+}
+
+.content-item2:hover .overlay {
+  border-bottom: 1100px solid #55acee;
+  border-left: 1100px solid transparent;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.content-item2 .corner-overlay-content {
+  bottom: 15px;
+  color: white;
+  position: absolute;
+  right: 15px;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  font-family: Dosis;
+}
+
+.content-item2:hover .corner-overlay-content {
+  opacity: 0;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.content-item2 .overlay-content {
+  bottom: 0;
+  color: white;
+  left: 0;
+  opacity: 0;
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  font-family: Dosis;
+}
+
+.content-item2 .overlay-content .title_header {
+  border-bottom: 1px solid white;
+  padding: 0 0 12px;
+  text-align: center;
+  font-size: 6vh;
+}
+
+.content-item2:hover .overlay-content {
+  opacity: 1;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  -moz-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+
+/*----------------------------------------------*/
+             /*contact page formatting*/
+/*----------------------------------------------*/
+
+.top_bubble {
+  margin-bottom: 5vh;
+}
+
+.email_form {
+  background-color: rgba(85,172,238,0.5);
+  border-radius: 5%;
+  margin-bottom: 0;
+}
+
+.form_boxes {
+  margin: 5% 5% 10% 10%;
+  font-family: Dosis;
+  color: white;
+  font-size: 20px;
+  width: 80%;
+}
+
+.form_textarea {
+  width: 100%;
+  color: black;
+}
+
+.input_fields {
+  color: black;
+}
+
+.form_table {
+  width: 100%;
+}
+
+.form_header {
+  font-size: 30px;
+  text-align: center;
+}
+
+.box {
+  border-radius: 50%;
+  background: rgb(200,200,200);
+  width: 15vh;
+  height: 15vh;
+  /*margin-left: 80%;*/
+  /*display: inline-block;*/
+  position: relative;
+  transition: all .3s;
+}
+
+.box:hover {
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0px 0 0 0 #FFF,  0px 0 0 10px #55acee;
+}
+
+.contact_images {
+  margin-top: 18%;
+  position: relative;
+  visibility: visible;
+}
+
+.linkedin_image {
+  width: 60%;
+  margin-top: 18%;
+  margin-left: 18%;
+}
+
+.github_image {
+  width: 60%;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.email_image {
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+
+}
+
+.myphoto {
+  background-image: url('myphoto.jpg');
+  width: 40vh;
+  border-radius: 200px;
+  border: 2px solid white;
+  margin-bottom: 2vh;
+}
+
+.about_me_paragraph {
+  font-family: Dosis;
+  width: 60vh;
+  text-align: center;
+  color: white;
+  font-size: 4vh;
+  margin-top: -55vh;
+  margin-left: 10vh;
+  position: relative;
+  display: block;
+  float: right;
+
+}
