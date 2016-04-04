@@ -282,7 +282,7 @@ body {
 .hover_paragraph {
   margin: 0;
   padding: 0;
-  font-size: 4vh;
+  font-size: 2vh;
   text-align: left;
   font-family: Dosis;
 }
@@ -302,7 +302,7 @@ body {
   backface-visibility: hidden;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 50vh;
+  height: 30vh;
   margin: 7vh;
   overflow: hidden;
   position: relative;
@@ -373,7 +373,7 @@ body {
   border-bottom: 1px solid white;
   padding: 0 0 12px;
   text-align: center;
-  font-size: 6vh;
+  font-size: 3vh;
 }
 
 .content-item:hover .overlay-content {
@@ -395,7 +395,7 @@ body {
   backface-visibility: hidden;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 50vh;
+  height: 30vh;
   margin: 7vh;
   overflow: hidden;
   position: relative;
@@ -466,21 +466,12 @@ body {
   border-bottom: 1px solid white;
   padding: 0 0 12px;
   text-align: center;
-  font-size: 6vh;
+  font-size: 3vh;
 }
 
-.content-item2:hover .overlay-content {
-  opacity: 1;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  -moz-transition-delay: 0.3s;
-  -o-transition-delay: 0.3s;
-  -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s;
+.ebarter {
+  background-image: url('http://i.imgur.com/NR9OzaE.jpg');
 }
-
 
 /*----------------------------------------------*/
              /*contact page formatting*/
