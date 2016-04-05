@@ -295,8 +295,19 @@ body {
   position: absolute;
 }
 
-.content-item {
+.ebarter {
+  background: url('http://i.imgur.com/NR9OzaE.jpg');
+}
+
+.first {
   background: url('http://i.imgur.com/L6p9Nd6.png');
+}
+
+.shooting {
+  background: url('http://i.imgur.com/kw9fp7A.jpg');
+}
+
+.content-item {
   -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -388,7 +399,7 @@ body {
   transition-delay: 0.3s;
 }
 
-.content-item2 {
+/*.content-item2 {
   background: url('http://i.imgur.com/kw9fp7A.jpg');
   -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
@@ -467,11 +478,8 @@ body {
   padding: 0 0 12px;
   text-align: center;
   font-size: 3vh;
-}
+}*/
 
-.ebarter {
-  background-image: url('http://i.imgur.com/NR9OzaE.jpg');
-}
 
 /*----------------------------------------------*/
              /*contact page formatting*/
