@@ -489,7 +489,9 @@ body {
 
 .myphoto {
   background: image-url('myphoto.jpg');
+  background-size: 100%;
   width: 40vh;
+  height: 40vh;
   border-radius: 200px;
   border: 2px solid white;
   margin-bottom: 2vh;
