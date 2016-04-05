@@ -277,6 +277,7 @@ body {
 
 .projects_div {
   background-color: rgba(0,0,0,0.5);
+  /*padding: 4vh;*/
 }
 
 .hover_paragraph {
@@ -297,14 +298,17 @@ body {
 
 .ebarter {
   background: url('http://i.imgur.com/NR9OzaE.jpg');
+  /*margin: 4vh;*/
 }
 
 .first {
   background: url('http://i.imgur.com/L6p9Nd6.png');
+  /*margin: 4vh;*/
 }
 
 .shooting {
   background: url('http://i.imgur.com/kw9fp7A.jpg');
+  /*margin: 4vh;*/
 }
 
 .content-item {
@@ -313,9 +317,10 @@ body {
   backface-visibility: hidden;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 30vh;
-  margin: 7vh;
+  height: 35vh;
+  /*margin: 4vh;*/
   overflow: hidden;
+  display: inline-block;
   position: relative;
 }
 
@@ -398,87 +403,6 @@ body {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
-
-/*.content-item2 {
-  background: url('http://i.imgur.com/kw9fp7A.jpg');
-  -moz-backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 30vh;
-  margin: 7vh;
-  overflow: hidden;
-  position: relative;
-}
-
-.content-item2 .overlay {
-  border-bottom: 100px solid #55acee;
-  border-left: 100px solid transparent;
-  bottom: 0;
-  height: 0;
-  opacity: .95;
-  position: absolute;
-  right: 0;
-  text-indent: -9999px;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  width: 0;
-}
-
-.content-item2:hover .overlay {
-  border-bottom: 1100px solid #55acee;
-  border-left: 1100px solid transparent;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-}
-
-.content-item2 .corner-overlay-content {
-  bottom: 15px;
-  color: white;
-  position: absolute;
-  right: 15px;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  font-family: Dosis;
-}
-
-.content-item2:hover .corner-overlay-content {
-  opacity: 0;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-}
-
-.content-item2 .overlay-content {
-  bottom: 0;
-  color: white;
-  left: 0;
-  opacity: 0;
-  padding: 30px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  font-family: Dosis;
-}
-
-.content-item2 .overlay-content .title_header {
-  border-bottom: 1px solid white;
-  padding: 0 0 12px;
-  text-align: center;
-  font-size: 3vh;
-}*/
 
 
 /*----------------------------------------------*/
