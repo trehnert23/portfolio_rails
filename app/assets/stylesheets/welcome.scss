@@ -83,7 +83,7 @@ body {
 /*----------------------------------------------*/
 
 .welcome_logo {
-  margin-top: 0%;
+  /*margin-top: -50%;*/
 }
 
 .welcome_image_holder {
@@ -91,7 +91,6 @@ body {
   height: 40rem;
   background: image-url('myphoto.jpg');
   background-size: 100%;
-  position: absolute;
   margin-top: -5%;
   border-radius: 2%;
   border: 2px solid #a94904;
@@ -109,10 +108,11 @@ body {
   box-shadow: 0 0 0 0.8rem #f26906;
   height: 25rem;
   margin: 5rem auto;
-  margin-top: 50%;
-  margin-left: 40%;
+  margin-top: -11%;
+  margin-left: 20%;
   transform: rotate(-8deg);
   width: 25rem;
+  position: absolute;
 }
 
 .logo #first_p {
