@@ -55,7 +55,7 @@ body {
 
 #home {
 /*  background-image: url('https://images.unsplash.com/photo-1456846329149-8dcd6ef488b6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e7a621130e836181108e7c1573fa6924');*/
-  background-image: url('https://images.unsplash.com/photo-1453672655124-085736c852be?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=79ac2efe17116535e293054dfb10e6c7');
+  background-image: url('/assets/graffiti.jpg');
   background-size: 300vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -63,14 +63,14 @@ body {
 }
 
 #projects {
-  background-image: url('https://images.unsplash.com/photo-1426443177319-df7c639993c8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=4623457bf92cf1a404bcb19e4f93a886');
+  background-image: url('/assets/pencils.jpg');
   background-size: 300vh;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #about {
-  background-image: url('https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5e46ad0c03ce5a81a0541ab625f71f8b');
+  background-image: url('/assets/contact_page.jpg');
   background-size: 300vh;
   background-repeat: no-repeat;
   background-position: 0px -100px;
@@ -89,7 +89,7 @@ body {
 .welcome_image_holder {
   width: 40rem;
   height: 40rem;
-  background-image: url('http://i.imgur.com/jTccOFr.jpg?1');
+  background-image: url('/assets/myphoto.jpg');
   background-size: 100%;
   position: absolute;
   margin-top: -5%;
@@ -297,17 +297,17 @@ body {
 }
 
 .ebarter {
-  background: url('http://i.imgur.com/NR9OzaE.jpg');
+  background: url('/assets/ebarter.jpg');
   /*margin: 4vh;*/
 }
 
 .first {
-  background: url('http://i.imgur.com/L6p9Nd6.png');
+  background: url('/assets/bootcamps');
   /*margin: 4vh;*/
 }
 
 .shooting {
-  background: url('http://i.imgur.com/kw9fp7A.jpg');
+  background: url('/assets/shootingGame.jpg');
   /*margin: 4vh;*/
 }
 
