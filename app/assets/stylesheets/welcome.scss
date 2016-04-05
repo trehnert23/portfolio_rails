@@ -63,14 +63,14 @@ body {
 }
 
 #projects {
-  background-image: url('/assets/pencils.jpg');
+  background: image-url('pencils.jpg');
   background-size: 300vh;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #about {
-  background-image: url('/assets/contact_page.jpg');
+  background: image-url('contact_page.jpg');
   background-size: 300vh;
   background-repeat: no-repeat;
   background-position: 0px -100px;
@@ -89,7 +89,7 @@ body {
 .welcome_image_holder {
   width: 40rem;
   height: 40rem;
-  background-image: url('/assets/myphoto.jpg');
+  background: image-url('myphoto.jpg');
   background-size: 100%;
   position: absolute;
   margin-top: -5%;
@@ -297,17 +297,17 @@ body {
 }
 
 .ebarter {
-  background: url('/assets/ebarter.jpg');
+  background: image-url('ebarter.jpg');
   /*margin: 4vh;*/
 }
 
 .first {
-  background: url('/assets/bootcamps');
+  background: image-url('bootcamps');
   /*margin: 4vh;*/
 }
 
 .shooting {
-  background: url('/assets/shootingGame.jpg');
+  background: image-url('shootingGame.jpg');
   /*margin: 4vh;*/
 }
 
@@ -488,7 +488,7 @@ body {
 }
 
 .myphoto {
-  background-image: url('http://i.imgur.com/jTccOFr.jpg?1');
+  background: image-url('myphoto.jpg');
   width: 40vh;
   border-radius: 200px;
   border: 2px solid white;
