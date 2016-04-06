@@ -73,7 +73,7 @@ body {
   background: image-url('contact_page.jpg');
   background-size: 300vh;
   background-repeat: no-repeat;
-  background-position: 0px -100px;
+  background-position: 0px 0px;
   background-attachment: fixed;
 }
 
@@ -410,13 +410,13 @@ body {
 /*----------------------------------------------*/
 
 .top_bubble {
-  margin-bottom: 5vh;
+  margin-bottom: 4vh;
 }
 
 .email_form {
   background-color: rgba(85,172,238,0.5);
   border-radius: 5%;
-  margin-bottom: 0;
+  margin-top: -5%;
 }
 
 .form_boxes {
@@ -448,8 +448,8 @@ body {
 .box {
   border-radius: 50%;
   background: rgb(200,200,200);
-  width: 15vh;
-  height: 15vh;
+  width: 18vh;
+  height: 18vh;
   /*margin-left: 80%;*/
   /*display: inline-block;*/
   position: relative;
@@ -495,18 +495,9 @@ body {
   border-radius: 200px;
   border: 2px solid white;
   margin-bottom: 2vh;
+  position: relative;
 }
 
-.about_me_paragraph {
-  font-family: Dosis;
-  width: 60vh;
-  text-align: center;
-  color: white;
-  font-size: 4vh;
-  margin-top: -55vh;
-  margin-left: 10vh;
-  position: relative;
-  display: block;
-  float: right;
-
+.about_images {
+  margin-top: 5%;
 }
