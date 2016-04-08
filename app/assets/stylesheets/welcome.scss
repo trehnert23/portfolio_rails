@@ -83,7 +83,7 @@ body {
 /*----------------------------------------------*/
 
 .welcome_logo {
-  /*margin-top: -50%;*/
+  /*opacity: 0.5;*/
 }
 
 .welcome_image_holder {
@@ -310,6 +310,10 @@ body {
 
 .movies {
   background: image-url('movie_app.JPG');
+}
+
+.surfings_best {
+  background: image-url('surfings_best.JPG');
 }
 
 .content-item {
