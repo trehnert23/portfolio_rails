@@ -83,7 +83,7 @@ body {
 /*----------------------------------------------*/
 
 .welcome_logo {
-  /*opacity: 0.5;*/
+  /*margin-top: 30%;*/
 }
 
 .welcome_image_holder {
@@ -93,7 +93,7 @@ body {
   background-size: 100%;
   margin-top: -5%;
   border-radius: 2%;
-  border: 2px solid #a94904;
+  border: 2px solid rgb(85,172,238);
 }
 
 .welcome_image {
@@ -102,10 +102,10 @@ body {
 }
 
 .logo {
-  background: #f26906;
-  border: 0.4rem solid #000;
+  background: rgb(85,172,238);
+  border: 0.4rem solid white;
   border-radius: 50%;
-  box-shadow: 0 0 0 0.8rem #f26906;
+  box-shadow: 0 0 0 0.8rem rgb(85,172,238);
   height: 25rem;
   margin: 5rem auto;
   margin-top: -11%;
@@ -116,7 +116,7 @@ body {
 }
 
 .logo #first_p {
-  color: #000;
+  color: white;
   font-weight: bold;
   font-family: 'Doppio One', sans-serif;
   font-size: 2rem;
@@ -129,7 +129,7 @@ body {
 }
 
 .logo #second_p {
-  color: #000;
+  color: white;
   font-weight: bold;
   font-family: 'Doppio One', sans-serif;
   font-size: 2rem;
@@ -142,10 +142,10 @@ body {
 }
 
 .title {
-  color: black;
-  background: #f26906;
-  border-top: 0.8rem solid #f26906;
-  border-bottom: 0.8rem solid #f26906;
+  color: white;
+  background: rgb(85,172,238);
+  border-top: 0.8rem solid rgb(85,172,238);
+  border-bottom: 0.8rem solid rgb(85,172,238);
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 4rem;
   font-weight: 700;
@@ -159,8 +159,8 @@ body {
 }
 
 .welcome_header {
-  border-top: 0.4rem solid #000;
-  border-bottom: 0.4rem solid #000;
+  border-top: 0.4rem solid white;
+  border-bottom: 0.4rem solid white;
   margin: 0 -40px;
   padding: 20px;
   transform: scale(0.8, 1);
